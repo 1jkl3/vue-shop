@@ -5,7 +5,7 @@ import store from './store'
 import './assets/iconfont/iconfont.css'
 import './assets/css/reset.css'
 import Element from 'element-ui'
-import 'element-ui/lib/theme-default/index.css'
+import 'element-ui/lib/theme-chalk/index.css'
 
 Vue.use(Element)
 Vue.config.productionTip = false
