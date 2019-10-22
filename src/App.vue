@@ -1,9 +1,11 @@
 <template>
   <div id="app">
-    <div class="nav">
+	  <el-header>
 		<tar></tar>
-    </div>
-    <router-view/>
+	  </el-header>
+	  <el-main>
+		<router-view/>
+	  </el-main>
   </div>
 </template>
 <script>
@@ -16,16 +18,17 @@
 	}
 </script>
 <style>
+body{
+	margin: 0px;
+	padding: 0px;
+}
 #app {
-  font-family: 'Avenir', Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
 }
 
 .nav {
-  padding: 30px;
+  padding: 0px;
 }
 
 .nav a {
