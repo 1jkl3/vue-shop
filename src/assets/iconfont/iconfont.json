@@ -1,0 +1,65 @@
+{
+  "id": "1458781",
+  "name": "font",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "1638357",
+      "name": "首页",
+      "font_class": "shouye1",
+      "unicode": "e615",
+      "unicode_decimal": 58901
+    },
+    {
+      "icon_id": "4933341",
+      "name": "购物车",
+      "font_class": "gouwuche",
+      "unicode": "e735",
+      "unicode_decimal": 59189
+    },
+    {
+      "icon_id": "6345257",
+      "name": "我的",
+      "font_class": "wode1",
+      "unicode": "e601",
+      "unicode_decimal": 58881
+    },
+    {
+      "icon_id": "9453185",
+      "name": "分类",
+      "font_class": "fenlei",
+      "unicode": "e606",
+      "unicode_decimal": 58886
+    },
+    {
+      "icon_id": "11397339",
+      "name": "首页",
+      "font_class": "shouye1-copy",
+      "unicode": "e736",
+      "unicode_decimal": 59190
+    },
+    {
+      "icon_id": "11397404",
+      "name": "分类",
+      "font_class": "fenlei-copy",
+      "unicode": "e737",
+      "unicode_decimal": 59191
+    },
+    {
+      "icon_id": "11397409",
+      "name": "我的",
+      "font_class": "wode1-copy",
+      "unicode": "e738",
+      "unicode_decimal": 59192
+    },
+    {
+      "icon_id": "11397412",
+      "name": "购物车",
+      "font_class": "gouwuche-copy",
+      "unicode": "e739",
+      "unicode_decimal": 59193
+    }
+  ]
+}
