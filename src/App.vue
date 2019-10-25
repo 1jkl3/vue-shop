@@ -1,5 +1,5 @@
 <template>
-  <div id="app">
+  <div id="app" ref='app'>
 	  <el-header>
 		<tar></tar>
 	  </el-header>
@@ -14,6 +14,10 @@
 		name:'app',
 		components:{
 			tar
+		},
+		mounted(){
+			this.app=this.$refs.app
+			console.log(this.app)
 		}
 	}
 </script>
@@ -24,19 +28,6 @@ body{
 }
 #app {
   text-align: center;
-  color: #2c3e50;
 }
 
-.nav {
-  padding: 0px;
-}
-
-.nav a {
-  font-weight: bold;
-  color: #2c3e50;
-}
-
-.nav a.router-link-exact-active {
-  color: #42b983;
-}
 </style>

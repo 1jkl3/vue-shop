@@ -6,60 +6,60 @@
   "description": "",
   "glyphs": [
     {
-      "icon_id": "1638357",
-      "name": "首页",
-      "font_class": "shouye1",
+      "icon_id": "689261",
+      "name": "类目 品类 分类 类别.2",
+      "font_class": "leimupinleifenleileibie2",
+      "unicode": "e7f8",
+      "unicode_decimal": 59384
+    },
+    {
+      "icon_id": "1048852",
+      "name": "通知",
+      "font_class": "icon_notice",
+      "unicode": "e605",
+      "unicode_decimal": 58885
+    },
+    {
+      "icon_id": "1166678",
+      "name": "购物车",
+      "font_class": "gouwuche1",
+      "unicode": "e63b",
+      "unicode_decimal": 58939
+    },
+    {
+      "icon_id": "1206331",
+      "name": "微信",
+      "font_class": "weixin",
       "unicode": "e615",
       "unicode_decimal": 58901
     },
     {
-      "icon_id": "4933341",
-      "name": "购物车",
-      "font_class": "gouwuche",
-      "unicode": "e735",
-      "unicode_decimal": 59189
+      "icon_id": "1305408",
+      "name": "左",
+      "font_class": "zuo",
+      "unicode": "e63c",
+      "unicode_decimal": 58940
     },
     {
-      "icon_id": "6345257",
+      "icon_id": "3977271",
       "name": "我的",
-      "font_class": "wode1",
-      "unicode": "e601",
-      "unicode_decimal": 58881
+      "font_class": "weibiaoti-_huabanfuben",
+      "unicode": "e61a",
+      "unicode_decimal": 58906
     },
     {
-      "icon_id": "9453185",
-      "name": "分类",
-      "font_class": "fenlei",
-      "unicode": "e606",
-      "unicode_decimal": 58886
-    },
-    {
-      "icon_id": "11397339",
+      "icon_id": "6027497",
       "name": "首页",
-      "font_class": "shouye1-copy",
-      "unicode": "e736",
-      "unicode_decimal": 59190
+      "font_class": "shouye",
+      "unicode": "e607",
+      "unicode_decimal": 58887
     },
     {
-      "icon_id": "11397404",
-      "name": "分类",
-      "font_class": "fenlei-copy",
-      "unicode": "e737",
-      "unicode_decimal": 59191
-    },
-    {
-      "icon_id": "11397409",
-      "name": "我的",
-      "font_class": "wode1-copy",
-      "unicode": "e738",
-      "unicode_decimal": 59192
-    },
-    {
-      "icon_id": "11397412",
-      "name": "购物车",
-      "font_class": "gouwuche-copy",
-      "unicode": "e739",
-      "unicode_decimal": 59193
+      "icon_id": "10707113",
+      "name": "列表 listing",
+      "font_class": "liebiao",
+      "unicode": "e618",
+      "unicode_decimal": 58904
     }
   ]
 }
