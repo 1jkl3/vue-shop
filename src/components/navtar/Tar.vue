@@ -11,9 +11,9 @@
 					</div>
 					<div class="nav-ul">
 						<ul>
-							<li><a href="#">首页</a></li>
-							<li><a href="#">发现</a></li>
-							<li><a href="#">等你来答</a></li>
+							<li :class="{activeli:currentindex===0}"><a href="#">首页</a></li>
+							<li :class="{activeli:currentindex===1}"><a href="#">发现</a></li>
+							<li :class="{activeli:currentindex===2}"><a href="#">等你来答</a></li>
 						</ul>
 					</div>
 					<div class="query">
@@ -62,10 +62,15 @@
 		data() {
 		      return {
 		        restaurants: [],
-		        state: ''
+		        state: '',
+				currentindex:0,
+				
 		      };
 		    },
 		    methods: {
+				tabclick(){
+					
+				},
 		      querySearch(queryString, cb) {
 		        var restaurants = this.restaurants;
 		        var results = queryString ? restaurants.filter(this.createFilter(queryString)) : restaurants;
@@ -138,6 +143,15 @@
 		    },
 		    mounted() {
 		      this.restaurants = this.loadAll();
+			  let lis=document.querySelectorAll(".nav-ul>ul>li")
+			  // console.log(lis)
+			  for(let i=0;i<lis.length;i++){
+				  
+			  	lis[i].onclick=()=>{
+					this.currentindex=i
+					console.log(i)
+			  	}
+			  }
 		    }
 	}
 </script>
@@ -179,10 +193,9 @@
 		float: left;
 		list-style: none;
 		padding: 0px 10px 0px 10px;
-		box-shadow: 0px 2px 0px 0px #0084ff;
 	}
 	.nav-ul a{
-		font-weight: 100;
+		font-weight: 500;
 		font-size: 14px;
 		color: #8590a6;
 		text-decoration: none;
@@ -221,5 +234,10 @@
 		right: 0;
 		bottom: 0;
 		margin: auto;
+	}
+	.activeli a{
+		color: black;
+		padding-bottom: 10px;
+		border-bottom: 2px solid #0084ff;
 	}
 </style>

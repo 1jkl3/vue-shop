@@ -6,6 +6,20 @@
   "description": "",
   "glyphs": [
     {
+      "icon_id": "143692",
+      "name": "回到顶部",
+      "font_class": "huidaodingbu1",
+      "unicode": "e666",
+      "unicode_decimal": 58982
+    },
+    {
+      "icon_id": "533614",
+      "name": "app评价 给建议",
+      "font_class": "apppingjiageijianyi",
+      "unicode": "e621",
+      "unicode_decimal": 58913
+    },
+    {
       "icon_id": "689261",
       "name": "类目 品类 分类 类别.2",
       "font_class": "leimupinleifenleileibie2",
