@@ -74,6 +74,13 @@
       "font_class": "liebiao",
       "unicode": "e618",
       "unicode_decimal": 58904
+    },
+    {
+      "icon_id": "11131698",
+      "name": "向下",
+      "font_class": "down2",
+      "unicode": "e600",
+      "unicode_decimal": 58880
     }
   ]
 }

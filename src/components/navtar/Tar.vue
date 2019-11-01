@@ -64,13 +64,9 @@
 		        restaurants: [],
 		        state: '',
 				currentindex:0,
-				
 		      };
 		    },
 		    methods: {
-				tabclick(){
-					
-				},
 		      querySearch(queryString, cb) {
 		        var restaurants = this.restaurants;
 		        var results = queryString ? restaurants.filter(this.createFilter(queryString)) : restaurants;
@@ -144,12 +140,9 @@
 		    mounted() {
 		      this.restaurants = this.loadAll();
 			  let lis=document.querySelectorAll(".nav-ul>ul>li")
-			  // console.log(lis)
 			  for(let i=0;i<lis.length;i++){
-				  
 			  	lis[i].onclick=()=>{
 					this.currentindex=i
-					console.log(i)
 			  	}
 			  }
 		    }
