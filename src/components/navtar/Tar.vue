@@ -11,9 +11,9 @@
 					</div>
 					<div class="nav-ul">
 						<ul>
-							<li :class="{activeli:currentindex===0}"><a href="#">首页</a></li>
-							<li :class="{activeli:currentindex===1}"><a href="#">发现</a></li>
-							<li :class="{activeli:currentindex===2}"><a href="#">等你来答</a></li>
+							<li :class="{activeli:currentindex===0}" @click="routerto('/home')"><a href="#">首页</a></li>
+							<li :class="{activeli:currentindex===1}" @click="routerto('/favorit e')"><a href="#">发现</a></li>
+							<li :class="{activeli:currentindex===2}" @click="routerto('/home')"><a href="#">等你来答</a></li>
 						</ul>
 					</div>
 					<div class="query">
@@ -135,7 +135,10 @@
 		      },
 		      handleIconClick(ev) {
 		        console.log(ev);
-		      }
+		      },
+			  routerto(path){
+				  this.$router.push(path)
+			  }
 		    },
 		    mounted() {
 		      this.restaurants = this.loadAll();

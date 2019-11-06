@@ -5,7 +5,9 @@
 		</el-header>
 		<el-main>
 			<up-title />
-			<router-view />
+			<keep-alive>
+				<router-view />
+			</keep-alive>
 		</el-main>
 	</div>
 </template>

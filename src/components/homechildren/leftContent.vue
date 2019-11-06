@@ -2,6 +2,9 @@
 	<div class="left-content">
 		<tobstory-tabs @click-tab='tabindex'></tobstory-tabs>
 		<home-list-item></home-list-item>
+		<home-list-item></home-list-item>
+		<home-list-item></home-list-item>
+		<home-list-item></home-list-item>
 		<div class="abc"></div>
 		<div class="abc"></div>
 		<div class="abc"></div>
@@ -29,7 +32,7 @@
 
 <style>
 	.left-content{
-		flex: 65%;
+		flex: 70%;
 		box-shadow: 0px 0px 1px #8590a6;
 	}
 </style>

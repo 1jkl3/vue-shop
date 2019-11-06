@@ -1,15 +1,31 @@
 import Vue from 'vue'
 import VueRouter from 'vue-router'
 import Home from '../views/Home.vue'
+import Favorite from '../views/Favorite.vue'
 
 Vue.use(VueRouter)
 
 const routes = [
   {
     path: '/',
-    name: 'home',
-    component: Home
+    redirect: 'home'
   },
+  {
+	  path:'/home',
+	  name: 'home',
+	  component:Home,
+	  meta:{
+		  title:'首页'
+	  }
+  },
+  {
+	  path:'/favorite',
+	  name: 'favorite',
+	  component:Favorite,
+	  meta:{
+			title:'发现'
+	  }
+  }
   // {
   //   path: '/about',
   //   name: 'about',
@@ -24,5 +40,8 @@ const router = new VueRouter({
   base: process.env.BASE_URL,
   routes
 })
-
+router.beforeEach((to,from,next)=>{
+	document.title=to.meta.title
+	next()
+})
 export default router
